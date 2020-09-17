@@ -1,0 +1,368 @@
+body {
+  margin: 0 auto;
+}
+.wrapper {
+  border-top: solid 8px #6cc6c4;
+}
+.wrapper-body {
+  margin: 0 auto;
+  width: 920px;
+}
+.header {
+  height: 220px;
+}
+.header-top {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.header-icon {
+  float: left;
+  width: 300px;
+  height: 100%;
+  margin-top: 50px;
+  line-height: 3;
+}
+.topspan {
+  color: #b22c00;
+}
+p {
+  font-family: Verdana, Arial, Helvetica, "meirio", "メイリオ",
+    "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック",
+    sans-serif;
+  padding: 0;
+}
+h3 {
+  color: #515151;
+  font-family: Verdana, Arial, Helvetica, "meirio", "メイリオ",
+    "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック",
+    sans-serif;
+  font-size: 170%;
+  margin: 10px;
+}
+.header-info {
+  float: right;
+  text-align: center;
+}
+.header-info p {
+  font-size: 10px;
+  margin: 10px 0 0 0;
+}
+.yoyaku {
+  border: solid 1px #d6d6d6;
+  padding: 5px 0;
+}
+
+.header-contents {
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+}
+
+.header-contents li {
+  flex: 1;
+  font-weight: bold;
+  height: 70px;
+  list-style: none;
+  background-image: -webkit-gradient(
+    linear,
+    50% -1%,
+    50% 101%,
+    color-stop(0, rgb(156, 227, 225)),
+    color-stop(1, rgb(108, 198, 196))
+  );
+  border: solid 1px #6cc6c4;
+}
+.main-span {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 90%;
+  font-weight: bold;
+  margin: 18px 0 0 0;
+}
+.sub-span {
+  display: block;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 60%;
+  font-weight: bold;
+}
+.header-contents li:hover {
+  text-shadow: 1px 1px 2px #6cc6c4;
+  background-image: linear-gradient(
+    rgb(108, 198, 196) 0%,
+    rgb(156, 227, 225) 100%
+  );
+}
+.header-contents a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  line-height: 4;
+  color: white;
+  border-right: #71c9c7 solid 1px;
+  border-left: #99e1df solid 1px;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+}
+
+.sidebar-left {
+  flex: 1;
+}
+.sidebar-right {
+  flex: 2.5;
+}
+.fotter {
+  height: 200px;
+}
+.sidebar-left-normal {
+  border-radius: 5px 5px 0 0;
+  border: solid 1px #6cc6c4;
+  margin-bottom: 20px;
+}
+.topic {
+  color: white;
+  font-size: 15px;
+  padding: 10px 0 10px 10px;
+  background-image: -webkit-gradient(
+    linear,
+    50% -1%,
+    50% 101%,
+    color-stop(0, rgb(156, 227, 225)),
+    color-stop(1, rgb(108, 198, 196))
+  );
+}
+
+.side-contents {
+  margin-top: 0px;
+  background-color: white;
+  height: 170px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.side-contents a {
+  display: block;
+  font-family: Verdana, Arial, Helvetica, "meirio", "メイリオ",
+    "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック",
+    sans-serif;
+}
+
+.sidebar-left li {
+  border-bottom: #6cc6c4 solid 1px;
+  height: 40px;
+  /*■のいろを変化*/
+  text-decoration: none;
+  list-style: none;
+  margin: 0px 12px;
+  padding: 0 0 0 25px;
+}
+
+.sidebar-left :hover {
+  color: #6cc6c4;
+}
+.sidebar-left a {
+  /*検索個所をブロック単位に*/
+  line-height: 2.5;
+  text-decoration: none;
+  color: #595959;
+}
+.sidebar-left {
+  border-radius: 1px;
+  margin-bottom: 30px;
+}
+.sidebar-left-sinbi {
+  margin-top: 30px;
+}
+img {
+  max-width: 100%;
+}
+.img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: left;
+}
+.info {
+  background-color: white;
+  margin: 10px auto 10px 20px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.inner {
+  width: 95%;
+  margin: 0 auto;
+}
+.info h4 {
+  border-bottom: solid 3px #6cc6c4;
+  padding-bottom: 5px;
+}
+.info-categoly {
+  border-bottom: 1px #cccccc dotted;
+  overflow: hidden;
+}
+.info-categoly h5 {
+  float: left;
+  margin-top: 10px;
+  padding-left: 7px;
+  color: #515151;
+  font-family: Verdana, Arial, Helvetica, "meirio", "メイリオ",
+    "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック",
+    sans-serif;
+}
+.info-categoly p {
+  float: right;
+  font-size: 12px;
+  width: 70%;
+  margin-top: 10px;
+  line-height: 150%;
+  padding: 10px 10px 10px 0;
+}
+
+.fotter-top {
+  background-image: -webkit-gradient(
+    linear,
+    50% -1%,
+    50% 101%,
+    color-stop(0, rgb(156, 227, 225)),
+    color-stop(1, rgb(108, 198, 196))
+  );
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.fotter-top li {
+  float: left;
+  /*本来はひとつづつpaddingすべきか？*/
+  margin-right: 25px;
+}
+.footer-li {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+.fotter-middle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #515151;
+  text-align: right;
+  line-height: 180%;
+  font-size: 0.75em;
+}
+.fotter-bottom {
+  border-top: solid 1px #6cc6c4;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px auto;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wrapper-body {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .header {
+    height: auto;
+  }
+  .header-top {
+    height: auto;
+  }
+  .header-icon {
+    width: 100%;
+    margin: 0 auto;
+    line-height: none;
+  }
+  .header-info {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    clear: right;
+  }
+  .header-info p {
+    display: inline-block;
+  }
+  .header-info h3 {
+    display: inline-block;
+  }
+  .header-contents {
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: none;
+  }
+  .topic {
+    border-radius: none;
+  }
+  .header-contents li {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    flex: none;
+    border-radius: 5px;
+  }
+  .main {
+    /*display: block;*/
+    height: auto;
+    flex-direction: column;
+  }
+  .img {
+    order: 0;
+  }
+  .sidebar-right {
+    display: block;
+    width: 100%;
+  }
+  .sidebar-left {
+    order: 2;
+  }
+  .sidebar-left-normal {
+    width: 95%;
+    margin: 0 auto 20px auto;
+  }
+  .info-categoly {
+    width: 100%;
+    order: 1;
+  }
+  .info-categoly h5 {
+    float: none;
+  }
+  .info-categoly p {
+    width: 100%;
+    padding-left: 10px;
+    line-height: 150%;
+    float: none;
+  }
+  .side-contents {
+    margin-left: 20px;
+  }
+  .side-contents li {
+    margin-right: 20px;
+  }
+  .topic {
+    margin: 0 20px;
+  }
+  .inner {
+    margin-bottom: 50px;
+  }
+
+  .fotter-middle {
+    text-align: center;
+  }
+}
